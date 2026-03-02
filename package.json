@@ -1,6 +1,10 @@
 {
     "name": "campusnova-monorepo",
     "private": true,
+    "packageManager": "pnpm@10.30.3",
+    "engines": {
+        "node": "22.14.0"
+    },
     "scripts": {
         "build": "turbo run build",
         "dev": "turbo run dev",

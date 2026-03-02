@@ -9,5 +9,9 @@
     "types": "./src/index.ts",
     "files": [
         "src"
-    ]
+    ],
+    "devDependencies": {
+        "typescript": "~5.9.3",
+        "@types/node": "^24.10.1"
+    }
 }

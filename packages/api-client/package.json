@@ -10,6 +10,8 @@
         "@supabase/supabase-js": "^2.98.0"
     },
     "devDependencies": {
+        "typescript": "~5.9.3",
+        "@types/node": "^24.10.1",
         "vite": "^7.3.1"
     }
 }
