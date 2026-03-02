@@ -1,19 +1,28 @@
-# Architecture Overview
+# CampusNova Architecture Overview (Phase 0)
 
-## Monorepo Structure
-- **apps/admin**: System Admin Dashboard (React + Vite).
-- **apps/school**: School Portal (React + Vite).
-- **packages/config**: Shared ESLint, TypeScript, and Prettier configurations.
-- **packages/types**: Shared TypeScript domain models.
-- **packages/ui**: Shared React component library (Tailwind CSS v4).
-- **packages/api-client**: Shared Supabase client and API wrappers.
-- **packages/auth**: Shared authorization engine (`hasPermission`).
+## Overview
+CampusNova is a multi-tenant school management system designed for scalability and security. Phase 0 establishes the foundation with two React applications and a robust Supabase backend structure.
 
-## Technology Stack
-- **Frontend**: React 19, Vite, Tailwind CSS v4, React Router, TanStack Query.
-- **Backend/Database**: Supabase (PostgreSQL, Auth, RLS).
-- **Tooling**: pnpm Workspaces, Turborepo.
+## Frontend
+- **Applications**:
+  - `CampusNova_Schools_Portals`: For school-level management (tenants).
+  - `CampusNova_System_Admin_Dashboard`: For global system administration.
+- **Stack**: React, TypeScript, Vite, React Router, TanStack Query, React Hook Form, Zod.
+- **Styling**: Vanilla CSS with custom utility classes for a premium, fast-loading UI.
 
-## Tenancy Model
-- Multi-school system using **ID-based isolation (RLS)** in a shared database.
-- Every tenant-scoped table must include a `school_id`.
+## Backend (Supabase)
+- **Database**: PostgreSQL with Row Level Security (RLS) for tenant isolation.
+- **Auth**: Supabase Auth for identity management.
+- **RBAC**: Custom B2b RBAC model (Roles, Permissions).
+
+## Folder Structure
+```
+/apps
+  /CampusNova_Schools_Portals
+  /CampusNova_System_Admin_Dashboard
+/supabase
+  /migrations
+  /seed
+  /policies
+/docs
+```
