@@ -1,7 +1,7 @@
 {
   "name": "campusnova-schools-portals",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,9 +20,9 @@
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
-    "@campusnova/types": "*",
+    "@campusnova/types": "workspace:*",
     "@eslint/js": "^9.39.1",
-    "@types/node": "^24.10.1",
+    "@types/node": "^22.0.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.2.2",
@@ -30,8 +30,8 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "typescript": "~5.9.3",
+    "typescript": "^5.7.0",
     "typescript-eslint": "^8.48.0",
-    "vite": "^7.3.1"
+    "vite": "^6.0.0"
   }
 }
