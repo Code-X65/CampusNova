@@ -10,7 +10,7 @@
         "react": "^19.2.0"
     },
     "devDependencies": {
-        "@campusnova/config": "workspace:*",
+        "@campusnova/config": "*",
         "typescript": "~5.9.3",
         "@types/node": "^24.10.1",
         "@types/react": "^19.2.7",

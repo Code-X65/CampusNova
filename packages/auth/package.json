@@ -7,8 +7,8 @@
     },
     "main": "./src/index.ts",
     "dependencies": {
-        "@campusnova/api-client": "workspace:*",
-        "@campusnova/types": "workspace:*"
+        "@campusnova/api-client": "*",
+        "@campusnova/types": "*"
     },
     "devDependencies": {
         "typescript": "~5.9.3",
