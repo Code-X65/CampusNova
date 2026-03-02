@@ -1,9 +1,9 @@
 {
-    "name": "@campusnova/config",
-    "version": "1.0.0",
-    "private": true,
-    "files": [
-        "typescript",
-        "eslint"
-    ]
+  "name": "@campusnova/config",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "typescript",
+    "eslint"
+  ]
 }

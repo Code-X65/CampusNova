@@ -1,20 +1,20 @@
 {
-    "name": "@campusnova/ui",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "build": "tsc"
-    },
-    "main": "./src/index.ts",
-    "dependencies": {
-        "react": "^19.2.0"
-    },
-    "devDependencies": {
-        "@campusnova/config": "workspace:*",
-        "typescript": "^5.7.0",
-        "@types/node": "^22.0.0",
-        "@types/react": "^19.2.7",
-        "@types/react-dom": "^19.2.3",
-        "tailwindcss": "^4.2.1"
-    }
+  "name": "@campusnova/ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "./src/index.ts",
+  "dependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@campusnova/config": "workspace:*",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.2.1"
+  }
 }
