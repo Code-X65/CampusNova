@@ -1,0 +1,13 @@
+{
+    "name": "@campusnova/auth",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "tsc"
+    },
+    "main": "./src/index.ts",
+    "dependencies": {
+        "@campusnova/api-client": "workspace:*",
+        "@campusnova/types": "workspace:*"
+    }
+}
